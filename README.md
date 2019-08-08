@@ -29,6 +29,26 @@ default options:
 
     use exact::conf;
 
+# IMPORTED FUNCTION
+
+There is only 1 imported function:
+
+## conf
+
+This...
+
+    use exact conf;
+    say conf->get('answer');
+
+...is equivalent to this...
+
+    use Config::App;
+    say Config::App->new->get('answer');
+
+To pass input into `Config::App-`new>, do this:
+
+    say conf('settings/conf.yaml')->get('answer');
+
 # SEE ALSO
 
 You can look for additional information at:
