@@ -42,7 +42,7 @@ __END__
 
 =head1 SYNOPSIS
 
-    use exact conf;
+    use exact -conf;
 
 =head1 DESCRIPTION
 
@@ -53,7 +53,7 @@ See the L<exact> documentation for additional informatioh about
 extensions. The intended use of L<exact::conf> is via the extension interface
 of L<exact>.
 
-    use exact conf, conf, noutf8;
+    use exact -conf, -cli, -noutf8;
 
 However, you can also use it directly, which will also use L<exact> with
 default options:
@@ -68,7 +68,7 @@ There is only 1 imported function:
 
 This...
 
-    use exact conf;
+    use exact -conf;
     say conf->get('answer');
 
 ...is equivalent to this...

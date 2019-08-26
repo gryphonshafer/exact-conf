@@ -4,14 +4,14 @@ exact::conf - Cascading merged application configuration extension for exact
 
 # VERSION
 
-version 1.01
+version 1.02
 
 [![Build Status](https://travis-ci.org/gryphonshafer/exact-conf.svg)](https://travis-ci.org/gryphonshafer/exact-conf)
 [![Coverage Status](https://coveralls.io/repos/gryphonshafer/exact-conf/badge.png)](https://coveralls.io/r/gryphonshafer/exact-conf)
 
 # SYNOPSIS
 
-    use exact conf;
+    use exact -conf;
 
 # DESCRIPTION
 
@@ -22,7 +22,7 @@ See the [exact](https://metacpan.org/pod/exact) documentation for additional inf
 extensions. The intended use of [exact::conf](https://metacpan.org/pod/exact::conf) is via the extension interface
 of [exact](https://metacpan.org/pod/exact).
 
-    use exact conf, conf, noutf8;
+    use exact -conf, -cli, -noutf8;
 
 However, you can also use it directly, which will also use [exact](https://metacpan.org/pod/exact) with
 default options:
@@ -37,7 +37,7 @@ There is only 1 imported function:
 
 This...
 
-    use exact conf;
+    use exact -conf;
     say conf->get('answer');
 
 ...is equivalent to this...
