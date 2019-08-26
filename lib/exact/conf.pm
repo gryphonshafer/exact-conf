@@ -1,7 +1,7 @@
 package exact::conf;
 # ABSTRACT: Cascading merged application configuration extension for exact
 
-use 5.010;
+use 5.014;
 use exact;
 use strict;
 

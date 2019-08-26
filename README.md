@@ -4,7 +4,7 @@ exact::conf - Cascading merged application configuration extension for exact
 
 # VERSION
 
-version 1.02
+version 1.03
 
 [![Build Status](https://travis-ci.org/gryphonshafer/exact-conf.svg)](https://travis-ci.org/gryphonshafer/exact-conf)
 [![Coverage Status](https://coveralls.io/repos/gryphonshafer/exact-conf/badge.png)](https://coveralls.io/r/gryphonshafer/exact-conf)
