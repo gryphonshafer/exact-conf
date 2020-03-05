@@ -86,9 +86,7 @@ You can look for additional information at:
 
 =for :list
 * L<GitHub|https://github.com/gryphonshafer/exact-conf>
-* L<CPAN|http://search.cpan.org/dist/exact-conf>
 * L<MetaCPAN|https://metacpan.org/pod/exact::conf>
-* L<AnnoCPAN|http://annocpan.org/dist/exact-conf>
 * L<Travis CI|https://travis-ci.org/gryphonshafer/exact-conf>
 * L<Coveralls|https://coveralls.io/r/gryphonshafer/exact-conf>
 * L<CPANTS|http://cpants.cpanauthors.org/dist/exact-conf>
