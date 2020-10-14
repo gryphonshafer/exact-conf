@@ -49,7 +49,7 @@ __END__
 L<exact::conf> is a cascading merged application configuration extension for
 L<exact>. It effectively is an integration of L<Config::App> with L<exact>.
 Consult the L<Config::App> documentation for additional information.
-See the L<exact> documentation for additional informatioh about
+See the L<exact> documentation for additional information about
 extensions. The intended use of L<exact::conf> is via the extension interface
 of L<exact>.
 

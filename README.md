@@ -15,11 +15,11 @@ version 1.03
 
 # DESCRIPTION
 
-[exact::conf](https://metacpan.org/pod/exact::conf) is a cascading merged application configuration extension for
-[exact](https://metacpan.org/pod/exact). It effectively is an integration of [Config::App](https://metacpan.org/pod/Config::App) with [exact](https://metacpan.org/pod/exact).
-Consult the [Config::App](https://metacpan.org/pod/Config::App) documentation for additional information.
-See the [exact](https://metacpan.org/pod/exact) documentation for additional informatioh about
-extensions. The intended use of [exact::conf](https://metacpan.org/pod/exact::conf) is via the extension interface
+[exact::conf](https://metacpan.org/pod/exact%3A%3Aconf) is a cascading merged application configuration extension for
+[exact](https://metacpan.org/pod/exact). It effectively is an integration of [Config::App](https://metacpan.org/pod/Config%3A%3AApp) with [exact](https://metacpan.org/pod/exact).
+Consult the [Config::App](https://metacpan.org/pod/Config%3A%3AApp) documentation for additional information.
+See the [exact](https://metacpan.org/pod/exact) documentation for additional information about
+extensions. The intended use of [exact::conf](https://metacpan.org/pod/exact%3A%3Aconf) is via the extension interface
 of [exact](https://metacpan.org/pod/exact).
 
     use exact -conf, -cli, -noutf8;
@@ -54,9 +54,7 @@ To pass input into `Config::App-`new>, do this:
 You can look for additional information at:
 
 - [GitHub](https://github.com/gryphonshafer/exact-conf)
-- [CPAN](http://search.cpan.org/dist/exact-conf)
 - [MetaCPAN](https://metacpan.org/pod/exact::conf)
-- [AnnoCPAN](http://annocpan.org/dist/exact-conf)
 - [Travis CI](https://travis-ci.org/gryphonshafer/exact-conf)
 - [Coveralls](https://coveralls.io/r/gryphonshafer/exact-conf)
 - [CPANTS](http://cpants.cpanauthors.org/dist/exact-conf)
@@ -68,7 +66,7 @@ Gryphon Shafer <gryphon@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2019 by Gryphon Shafer.
+This software is copyright (c) 2020 by Gryphon Shafer.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
