@@ -4,10 +4,10 @@ exact::conf - Cascading merged application configuration extension for exact
 
 # VERSION
 
-version 1.03
+version 1.04
 
-[![Build Status](https://travis-ci.org/gryphonshafer/exact-conf.svg)](https://travis-ci.org/gryphonshafer/exact-conf)
-[![Coverage Status](https://coveralls.io/repos/gryphonshafer/exact-conf/badge.png)](https://coveralls.io/r/gryphonshafer/exact-conf)
+[![build](https://github.com/gryphonshafer/exact-conf/workflows/build/badge.svg)](https://github.com/gryphonshafer/exact-conf/actions?query=workflow%3Abuild)
+[![codecov](https://codecov.io/gh/gryphonshafer/exact-conf/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/exact-conf)
 
 # SYNOPSIS
 
@@ -55,8 +55,8 @@ You can look for additional information at:
 
 - [GitHub](https://github.com/gryphonshafer/exact-conf)
 - [MetaCPAN](https://metacpan.org/pod/exact::conf)
-- [Travis CI](https://travis-ci.org/gryphonshafer/exact-conf)
-- [Coveralls](https://coveralls.io/r/gryphonshafer/exact-conf)
+- [GitHub Actions](https://github.com/gryphonshafer/exact-conf/actions)
+- [Codecov](https://codecov.io/gh/gryphonshafer/exact-conf)
 - [CPANTS](http://cpants.cpanauthors.org/dist/exact-conf)
 - [CPAN Testers](http://www.cpantesters.org/distro/D/exact-conf.html)
 
@@ -66,7 +66,7 @@ Gryphon Shafer <gryphon@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2020 by Gryphon Shafer.
+This software is copyright (c) 2021 by Gryphon Shafer.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
