@@ -14,7 +14,7 @@ sub import {
     my @params = grep { length } split( /[,\s]+/, $params || '' );
 
     require Config::App;
-    Config::App->import(@params);
+    Config::App->import(@params) if ( @params or not length $params );
 
     {
         no strict 'refs';
@@ -76,8 +76,12 @@ This...
     use Config::App;
     say Config::App->new->get('answer');
 
-To pass input into C<Config::App->new>, do this:
+If you'd like to load L<Config::App> but skip its default import process that
+looks for default-location-located configuration files and errors if it can't
+find such, pass some false value. For example, if you want to specify a
+non-default-located configuration file at runtime, do this:
 
+    use exact 'conf(0)';
     say conf('settings/conf.yaml')->get('answer');
 
 =head1 SEE ALSO
