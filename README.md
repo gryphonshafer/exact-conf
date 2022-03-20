@@ -4,7 +4,7 @@ exact::conf - Cascading merged application configuration extension for exact
 
 # VERSION
 
-version 1.06
+version 1.07
 
 [![test](https://github.com/gryphonshafer/exact-conf/workflows/test/badge.svg)](https://github.com/gryphonshafer/exact-conf/actions?query=workflow%3Atest)
 [![codecov](https://codecov.io/gh/gryphonshafer/exact-conf/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/exact-conf)
@@ -70,7 +70,7 @@ Gryphon Shafer <gryphon@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2019-2021 by Gryphon Shafer.
+This software is Copyright (c) 2019-2050 by Gryphon Shafer.
 
 This is free software, licensed under:
 
