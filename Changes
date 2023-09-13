@@ -1,6 +1,8 @@
 Revision history for exact::conf
 
 {{$NEXT}}
+
+1.08      2023-09-12 21:07:37-07:00 America/Los_Angeles
         - Remove redundant strict (since it's provided by exact)
         - New import signature change required by exact v1.23
 
