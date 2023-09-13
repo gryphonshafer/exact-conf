@@ -4,7 +4,7 @@ exact::conf - Cascading merged application configuration extension for exact
 
 # VERSION
 
-version 1.07
+version 1.08
 
 [![test](https://github.com/gryphonshafer/exact-conf/workflows/test/badge.svg)](https://github.com/gryphonshafer/exact-conf/actions?query=workflow%3Atest)
 [![codecov](https://codecov.io/gh/gryphonshafer/exact-conf/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/exact-conf)

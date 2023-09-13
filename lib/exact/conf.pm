@@ -3,12 +3,11 @@ package exact::conf;
 
 use 5.014;
 use exact;
-use strict;
 
 # VERSION
 
 sub import {
-    my ( $self, $caller, $params ) = @_;
+    my ( $self, $params, $caller ) = @_;
     $caller //= caller();
 
     my @params = grep { length } split( /[,\s]+/, $params || '' );
